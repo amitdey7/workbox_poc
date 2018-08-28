@@ -1,0 +1,13 @@
+<mvc:View controllerName="sampleApp.controller.mainView" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<Button text="Load Data" press="onClick" />
+					<Text text="{oSampleJsonModel>/name}" />
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
